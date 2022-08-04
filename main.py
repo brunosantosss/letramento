@@ -9,7 +9,7 @@ from pytesseract import pytesseract
 
 # Starting engine's and Tesseract local
 voice = pyttsx3.init()
-pytesseract.tesseract_cmd = r"C:\Users\Bruno\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
+pytesseract.tesseract_cmd = r"C:\Users\USERNAME\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 
 # External functions
 def IsNumeric(param):
